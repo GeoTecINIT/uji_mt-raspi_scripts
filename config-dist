@@ -1,0 +1,8 @@
+# Base URL of running API
+APIURL="http://0.0.0.0:80"
+
+# Check for newer version at https://geth.ethereum.org/downloads/ replace it in NAME variable
+NAME="geth-linux-arm7-1.9.25-e7872729"
+
+# Ethereum address obtained from step 3
+ETHADDR="0x0"

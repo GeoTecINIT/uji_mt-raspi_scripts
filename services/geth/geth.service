@@ -1,0 +1,11 @@
+[Unit]
+Description=Ethereum Client Service
+
+[Service]
+ExecStart=/home/pi/src/services/geth-start.sh
+TimeoutSec=60
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target
