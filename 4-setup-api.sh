@@ -8,7 +8,7 @@ then
 fi
 
 # Clone API from repository
-git clone https://github.com/ponlawat-w/uji_mt-reputation_management_api.git /home/pi/api
+git clone https://github.com/ponlawat-w/uji_mt-fog_api.git /home/pi/api
 
 # Load config from running API in other node, defined url in APIURL of ./config file
 curl -L $APIURL/network/default-config > ./temp/api-config.json
