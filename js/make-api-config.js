@@ -26,5 +26,6 @@ if (!data || !data.ok) {
 
 const apiConfig = data.data;
 apiConfig.blockchainNetwork.config.address = getEthAddr();
+apiConfig.host.networkInterface = 'wlan0';
 
 fs.writeFileSync('./temp/api-config.json', JSON.stringify(apiConfig));
