@@ -18,5 +18,5 @@ node ./js/make-api-config.js
 mv ./temp/api-config.json /home/pi/api/config.json
 
 # Install NPM packages of API directory
-npm --prefix /home/pi/api install /home/pi/api
-npm --prefix /home/pi/api install -g --unsafe-perm=true --allow-root /home/pi/api
+npm install --prefix /home/pi/api /home/pi/api
+npm install --prefix /home/pi/api -g --unsafe-perm=true --allow-root /home/pi/api
